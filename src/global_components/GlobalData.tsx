@@ -1,6 +1,6 @@
 import React from "react";
-import { GameInterface } from "./GlobalInterface";
-import { MenuItemInterface } from "./GlobalInterface";
+import { GameInterface } from "./GlobalInterface.tsx";
+import { MenuItemInterface } from "./GlobalInterface.tsx";
 
 export const providers = ['Provider A', 'Provider B', 'Provider C', 'Provider D'];
 

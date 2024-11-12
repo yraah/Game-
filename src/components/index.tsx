@@ -1,23 +1,20 @@
 // src/components/Component.tsx
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import {
-  setSearchTerm,
+import { setSearchTerm,
   toggleSearchOpen,
   setSelectedCategory,
   setTempProviders,
   applyFilters,
-  toggleFavorite,
-} from '../Slice';
-import Header from '../shared_components/Header';
-import Footer from '../shared_components/Footer';
-import Carousel from '../components/Carousel';
-import Categories from '../components/Categories';
-import TableData from '../components/Tabledata';
-import Gameprovider from './Gameprovider';
-import { sampleGames } from '../global_components/GlobalData';
-import { carouselImages } from '../global_components/GlobalData';
-import { componentFunction } from '../global_components/GlobalFunction';
+  toggleFavorite} from '../slice.tsx'
+import Header from '../shared_components/Header.tsx';
+import Footer from '../shared_components/Footer.tsx';
+import Carousel from '../components/Carousel.tsx';
+import Categories from '../components/Categories.tsx';
+import TableData from '../components/Tabledata.tsx';
+import Gameprovider from './Gameprovider.tsx';
+import { carouselImages } from '../global_components/GlobalData.tsx';
+import { componentFunction } from '../global_components/GlobalFunction.tsx';
 
 const Component: React.FC = () => {
   const dispatch = useDispatch();

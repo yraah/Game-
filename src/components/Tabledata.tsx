@@ -1,12 +1,12 @@
 // src/components/ImageGrid.tsx
 import React,{useEffect, useState} from 'react';
 import { useDispatch } from 'react-redux';
-import { toggleFavorite } from '../Slice';
-import { fetchGames } from '../mock_api/TableDataApi';
-import ImageGridPropsInterface from '../global_components/GlobalInterface';
-import TableDataFunctions from '../global_components/GlobalFunction'
-import { TableDataFilterFunction } from '../global_components/GlobalFunction';
-import { GameInterface } from '../global_components/GlobalInterface';
+import { toggleFavorite } from '../slice.tsx';
+import { fetchGames } from '../mock_api/TableDataApi.tsx';
+import ImageGridPropsInterface from '../global_components/GlobalInterface.tsx';
+import TableDataFunctions from '../global_components/GlobalFunction.tsx'
+import { TableDataFilterFunction } from '../global_components/GlobalFunction.tsx';
+import { GameInterface } from '../global_components/GlobalInterface.tsx';
 
 
 const ImageGrid: React.FC<ImageGridPropsInterface> = () => {

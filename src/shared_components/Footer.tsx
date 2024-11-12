@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { menuItemsData } from '../global_components/GlobalData';
+import { menuItemsData } from '../global_components/GlobalData.tsx';
 
 
 const Footer: React.FC = () => {

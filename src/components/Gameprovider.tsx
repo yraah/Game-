@@ -1,6 +1,6 @@
 import React from 'react';
-import { ProvidersDropdownProps } from '../global_components/GlobalInterface';
-import  {providers}  from '../global_components/GlobalData';
+import { ProvidersDropdownProps } from '../global_components/GlobalInterface.tsx';
+import  {providers}  from '../global_components/GlobalData.tsx';
 
     const Gameprovider:  React.FC<ProvidersDropdownProps> = ({selectedProviders,onProviderChange }) => {
     return (

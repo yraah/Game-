@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { RootState } from "../Store";
+import { RootState } from "../Store.tsx";
 import { useEffect } from "react";
 
 export function componentFunction() {

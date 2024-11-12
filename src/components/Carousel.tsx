@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { CarouselPropsInterface } from '../global_components/GlobalInterface';
-import { carouselOnLoadFunction } from '../global_components/GlobalFunction';
+import { CarouselPropsInterface } from '../global_components/GlobalInterface.tsx';
+import { carouselOnLoadFunction } from '../global_components/GlobalFunction.tsx';
 
 const Carousel:React.FC<CarouselPropsInterface> = ({
   images,

@@ -2,8 +2,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ComponentState } from './global_components/GlobalInterface';
 
-
-
 const initialState: ComponentState = {
   searchTerm: '',
   isSearchOpen: false,

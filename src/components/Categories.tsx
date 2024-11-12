@@ -1,8 +1,8 @@
 // src/components/Categories.tsx
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { toggleSearchOpen, setSelectedCategory } from '../Slice';
-import { NavItemPropsInterface } from '../global_components/GlobalInterface';
+import { toggleSearchOpen, setSelectedCategory } from '../slice.tsx';
+import { NavItemPropsInterface } from '../global_components/GlobalInterface.tsx';
 
 const Categories: React.FC<NavItemPropsInterface> = ({ label, onClick }) => {
   const dispatch = useDispatch();
